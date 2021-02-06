@@ -1,3 +1,4 @@
-# discord-custom-rich-presence
+# Custom Rich Presence for Discord
 
-How to use:
+How to use: 
+1)
