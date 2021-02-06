@@ -12,8 +12,8 @@ npm init -y
 ```sh
 npm i discord-rpc
 ```
-6: Modify the index.js file.
-7: To run it bash:-
+6. Modify the index.js file.
+7. To run it bash:-
 ```sh
 node index.js
 ```
