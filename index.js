@@ -5,13 +5,13 @@ client.on("ready", () => {
   client.request("SET_ACTIVITY", {
     pid: process.pid,
     activity: {
-      details: "Add it to your server!",
-      state: "https://black-tooth.xyz",
+      details: "FIRST LINE HERE",
+      state: "SECOND LINE HERE",
       assets: {
-        large_image: "blacktooth", //in discord dev portal
+        large_image: "NAME OF THE RICH PRESSENCE ASSET", //in discord dev portal
       },
-      buttons: [{label: "Invite!", url: "https://black-tooth.xyz"}, {label: "Vote!", url: "https://top.gg/bot/778582556311945227/vote" }]
+      buttons: [{label: "(BUTTON NAME HERE)", url: "https://black-tooth.xyz"}, {label: "(BUTTON 2 NAME HERE)", url: "https://top.gg/bot/778582556311945227/vote" }] // Links in url
     },
   });
 });
-client.login({ clientId: "807278277626298398" }).catch(console.error);
+client.login({ clientId: "YOUR CLIENT ID HERE (NOT USER ID)" }).catch(console.error);
