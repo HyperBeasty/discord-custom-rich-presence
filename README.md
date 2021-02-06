@@ -1,4 +1,4 @@
-# Custom Rich Presence for Discord
+# Custom Rich Presence for Discord 
 
 ## How to use: 
 1. Go to https://discord.com/developers/applications and create a **new application**.
@@ -12,7 +12,7 @@ npm init -y
 ```sh
 npm i discord-rpc
 ```
-6. Modify the index.js file.
+6. Modify the index.js file as needed.
 7. To run it bash:-
 ```sh
 node index.js
