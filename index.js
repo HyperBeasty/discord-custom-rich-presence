@@ -15,3 +15,4 @@ client.on("ready", () => {
   });
 });
 client.login({ clientId: "YOUR CLIENT ID HERE (NOT USER ID)" }).catch(console.error);
+//eat my dicku nom nom
